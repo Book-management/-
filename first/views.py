@@ -133,7 +133,7 @@ def logout(request): #注销
 
 #这个使用session
 def login_session(request):
-    # print(request.POST)
+    # print(request.POST)auth_permission
     if request.method == 'POST':
         name = request.POST.get('user','')
 
